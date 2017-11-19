@@ -1,4 +1,4 @@
-package mp3tag
+package main
 
 import (
 	"io/ioutil"
