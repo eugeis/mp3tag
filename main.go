@@ -62,7 +62,7 @@ func main() {
 	}
 }
 func paramSeparator(c *cli.Context) string {
-	return c.GlobalString("separator")
+	return c.String("separator")
 }
 func paramFolder(c *cli.Context) string {
 	return c.GlobalString("folder")
